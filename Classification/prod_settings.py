@@ -12,7 +12,7 @@ DEBUG = False
 
 SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', SECRET_KEY)
 
-ALLOWED_HOSTS = ['image-classification-densenet.herokuapp.com.herokuapp.com']
+ALLOWED_HOSTS = ['image-classification-densenet.herokuapp.com']
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
